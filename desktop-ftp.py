@@ -228,8 +228,8 @@ def startstop():
             buton["text"]="Start"
             print("Ftp stopped")
   
-buton=Button(group,text="Start",font=("Arial",15),bg="#3E54D3",fg="white",bd=2,command=startstop)
-buton.pack(fill=BOTH)
+button=Button(group,text="Start",font=("Arial",15),bg="#3E54D3",fg="white",bd=2,command=startstop)
+button.pack(fill=BOTH)
 
 text = scrolledtext.ScrolledText(group,height=7,bd=5,bg="black",fg="white")
 text.pack(fill=Y,side=BOTTOM)
